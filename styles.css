@@ -32,6 +32,22 @@
    Neutralise it site-wide in RTL (Latin fragments simply lose tracking). */
 [dir="rtl"] * { letter-spacing: normal !important; }
 
+/* Arabic has tall letters, descenders and dots, so the very tight Latin
+   display line-heights make stacked lines overlap (e.g. the hero
+   "لا شيء / يتحرك."). Give Arabic headings room to breathe. */
+[dir="rtl"] .hero h1,
+[dir="rtl"] .hero__big2 { line-height: 1.28; }
+[dir="rtl"] .section-head h2,
+[dir="rtl"] .h2,
+[dir="rtl"] .about-hero h1,
+[dir="rtl"] .prodhero h1,
+[dir="rtl"] .contact h1,
+[dir="rtl"] .detail h1,
+[dir="rtl"] .ctaband h2,
+[dir="rtl"] .story h2,
+[dir="rtl"] .brands h2,
+[dir="rtl"] .mission { line-height: 1.35; }
+
 * { box-sizing: border-box; }
 
 html { scroll-behavior: auto; }
