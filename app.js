@@ -164,11 +164,11 @@
 
   var RAW = [
     { key: 'blu', name: 'BLU PISCINA', cls: 'C2TE S1', image: 'assets/products/blu-piscina-hero.png', iw: 697, ih: 1200, fam: 'pool', tagKey: 'pool', tagBg: '#2360C6', deform: 'S1', openT: '≥ 30 min', cov: '3–5 kg/m²', colorKey: 'colBlue', substKey: 'subConcrete' },
-    { key: 'superflex', name: 'C2TE S2 SUPER FLEX', cls: 'C2TE S2', image: null, fam: 'flex', tagKey: 'tile', tagBg: '#1F2226', deform: 'S2', openT: '≥ 30 min', cov: '2.5–5 kg/m²', colorKey: 'colGray', substKey: 'subAll' },
-    { key: 'flex', name: 'C2TE S1 FLEX', cls: 'C2TE S1', image: null, fam: 'flex', tagKey: 'tile', tagBg: '#1F2226', deform: 'S1', openT: '≥ 30 min', cov: '2.5–5 kg/m²', colorKey: 'colGray', substKey: 'subAll' },
-    { key: 'fix', name: 'C2TE FIX', cls: 'C2TE', image: null, fam: 'std', tagKey: 'tile', tagBg: '#1F2226', deform: '—', openT: '≥ 30 min', cov: '2–4 kg/m²', colorKey: 'colGray', substKey: 'subConcrete' },
-    { key: 'fiber1', name: 'C2TE S1 FIBER', cls: 'C2TE S1', image: null, fam: 'fiber', tagKey: 'tile', tagBg: '#1F2226', deform: 'S1', openT: '≥ 30 min', cov: '2.5–5 kg/m²', colorKey: 'colGray', substKey: 'subAll' },
-    { key: 'fiber2', name: 'C2TE S2 FIBER', cls: 'C2TE S2', image: null, fam: 'fiber', tagKey: 'tile', tagBg: '#1F2226', deform: 'S2', openT: '≥ 30 min', cov: '2.5–5 kg/m²', colorKey: 'colGray', substKey: 'subAll' },
+    { key: 'superflex', name: 'C2TE S2 SUPER FLEX', cls: 'C2TE S2', image: 'assets/products/c2te-s2-super-flex.png', iw: 705, ih: 1200, fam: 'flex', tagKey: 'tile', tagBg: '#1F2226', deform: 'S2', openT: '≥ 30 min', cov: '2.5–5 kg/m²', colorKey: 'colGray', substKey: 'subAll' },
+    { key: 'flex', name: 'C2TE S1 FLEX', cls: 'C2TE S1', image: 'assets/products/c2te-s1-flex.png', iw: 708, ih: 1200, fam: 'flex', tagKey: 'tile', tagBg: '#1F2226', deform: 'S1', openT: '≥ 30 min', cov: '2.5–5 kg/m²', colorKey: 'colGray', substKey: 'subAll' },
+    { key: 'fix', name: 'C2TE FIX', cls: 'C2TE', image: 'assets/products/c2te-fix.png', iw: 698, ih: 1200, fam: 'std', tagKey: 'tile', tagBg: '#1F2226', deform: '—', openT: '≥ 30 min', cov: '2–4 kg/m²', colorKey: 'colGray', substKey: 'subConcrete' },
+    { key: 'fiber1', name: 'C2TE S1 FIBER', cls: 'C2TE S1', image: 'assets/products/c2te-s1-fiber.png', iw: 695, ih: 1200, fam: 'fiber', tagKey: 'tile', tagBg: '#1F2226', deform: 'S1', openT: '≥ 30 min', cov: '2.5–5 kg/m²', colorKey: 'colGray', substKey: 'subAll' },
+    { key: 'fiber2', name: 'C2TE S2 FIBER', cls: 'C2TE S2', image: 'assets/products/c2te-s2-fiber.png', iw: 692, ih: 1200, fam: 'fiber', tagKey: 'tile', tagBg: '#1F2226', deform: 'S2', openT: '≥ 30 min', cov: '2.5–5 kg/m²', colorKey: 'colGray', substKey: 'subAll' },
   ];
 
   /* Brand hero image (transparent cutout — also used decoratively on Home + About) */
