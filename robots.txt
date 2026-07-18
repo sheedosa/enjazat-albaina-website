@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://enjazatalbaina.com/sitemap.xml
+Sitemap: https://enjazatalbaina.ly/sitemap.xml
